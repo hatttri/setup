@@ -1,6 +1,7 @@
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id '7zip.7zip'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Brave.Brave'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Canonical.Ubuntu.2204'
+winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Cloudflare.Warp'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'DBBrowserForSQLite.DBBrowserForSQLite'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'DevToys-app.DevToys'
