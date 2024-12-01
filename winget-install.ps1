@@ -1,5 +1,6 @@
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id '7zip.7zip'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Brave.Brave'
+
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Cloudflare.Warp'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'DBBrowserForSQLite.DBBrowserForSQLite'
@@ -10,12 +11,17 @@ winget install --accept-package-agreements --accept-source-agreements --exact --
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Google.Chrome'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AppInstaller'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Azd'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AzureCLI'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.DevHome'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Edge'
+
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.OneDrive'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.PowerShell'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.PowerToys'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.SQLServerManagementStudio'
+
+
+
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudio.2022.Community'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudioCode' --custom '/MERGETASKS="addcontextmenufiles,addcontextmenufolders,!runcode"'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.WindowsTerminal'
