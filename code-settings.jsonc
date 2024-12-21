@@ -1,0 +1,90 @@
+{
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vb]": {
+    "editor.tabSize": 4
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.sp": "sql"
+  },
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/$RECYCLE.BIN": true,
+    "**/**.lnk": true,
+    "**/**.scc": true,
+    "**/.DS_Store": false,
+    "**/.git": true,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/desktop.ini": true,
+    "**/LOST.DIR": true,
+    "**/node_modules": true,
+    "**/System Volume Information": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.restoreWindows": "none",
+  "workbench.editor.enablePreview": false,
+
+  // eamodio.gitlens
+  "gitlens.hovers.currentLine.enabled": false,
+
+  // grapecity.gc-excelviewer
+  "csv-preview.lineNumbers": "ordinal",
+  "csv-preview.resizeColumns": "all",
+
+  // ms-vscode.powershell
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationAfterEveryPipeline",
+  "powershell.codeFormatting.whitespaceBetweenParameters": true,
+
+  // redhat.vscode-xml
+  "redhat.telemetry.enabled": true
+}
