@@ -1,5 +1,6 @@
 code --install-extension 'eamodio.gitlens'
 code --install-extension 'esbenp.prettier-vscode'
+code --install-extension 'humao.rest-client'
 code --install-extension 'MS-CEINTL.vscode-language-pack-ja'
 code --install-extension 'ms-dotnettools.csharp'
 code --install-extension 'ms-mssql.mssql'
