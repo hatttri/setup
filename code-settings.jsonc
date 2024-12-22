@@ -1,5 +1,6 @@
 {
   "[csharp]": {
+    "editor.codeLens": false,
     "editor.tabSize": 4
   },
   "[css]": {
@@ -33,6 +34,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vb]": {
+    "editor.codeLens": false,
     "editor.tabSize": 4
   },
   "[xml]": {
@@ -46,6 +48,7 @@
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.unicodeHighlight.nonBasicASCII": false,
   "files.associations": {
     "*.sp": "sql"
   },
@@ -75,10 +78,6 @@
 
   // eamodio.gitlens
   "gitlens.hovers.currentLine.enabled": false,
-
-  // grapecity.gc-excelviewer
-  "csv-preview.lineNumbers": "ordinal",
-  "csv-preview.resizeColumns": "all",
 
   // ms-vscode.powershell
   "powershell.codeFormatting.autoCorrectAliases": true,
