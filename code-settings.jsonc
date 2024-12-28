@@ -24,6 +24,9 @@
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell"
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

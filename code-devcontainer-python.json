@@ -2,7 +2,11 @@
   "image": "python",
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "ms-python.python"]
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-python.black-formatter",
+        "ms-python.python"
+      ]
     }
   }
 }
