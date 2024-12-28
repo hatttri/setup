@@ -1,7 +1,6 @@
 {
   "[csharp]": {
-    "editor.codeLens": false,
-    "editor.tabSize": 4
+    "editor.codeLens": false
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -30,15 +29,11 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[sql]": {
-    "editor.tabSize": 4
-  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vb]": {
-    "editor.codeLens": false,
-    "editor.tabSize": 4
+    "editor.codeLens": false
   },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
@@ -50,7 +45,6 @@
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "files.associations": {
     "*.sp": "sql"
