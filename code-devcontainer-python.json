@@ -1,0 +1,8 @@
+{
+  "image": "python",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "ms-python.python"]
+    }
+  }
+}
