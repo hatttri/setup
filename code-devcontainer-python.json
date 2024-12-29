@@ -6,7 +6,18 @@
         "esbenp.prettier-vscode",
         "ms-python.black-formatter",
         "ms-python.python"
-      ]
+      ],
+      "settings": {
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        },
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+      }
     }
   }
 }
