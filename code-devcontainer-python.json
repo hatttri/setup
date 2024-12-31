@@ -1,11 +1,12 @@
 {
-  "image": "python",
+  "build": { "dockerfile": "Dockerfile" },
   "customizations": {
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
         "ms-python.black-formatter",
-        "ms-python.python"
+        "ms-python.python",
+        "ms-toolsai.jupyter"
       ],
       "settings": {
         "[json]": {
@@ -19,5 +20,6 @@
         "editor.formatOnType": true
       }
     }
-  }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
 }
