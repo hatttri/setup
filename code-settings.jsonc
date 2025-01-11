@@ -65,9 +65,6 @@
     "**/node_modules": true,
     "**/System Volume Information": true
   },
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "security.workspace.trust.untrustedFiles": "open",
   "window.restoreWindows": "none",
