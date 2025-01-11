@@ -12,6 +12,7 @@ winget install --accept-package-agreements --accept-source-agreements --exact --
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AppInstaller'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Azd'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AzureCLI'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AzureDataStudio'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.DevHome'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Edge'
 
