@@ -9,12 +9,6 @@ $framework = "net8.0"
 dotnet new sln `
     --output $solution
 
-dotnet new gitignore `
-    --output $solution
-
-dotnet new editorconfig `
-    --output $solution
-
 # project01
 dotnet new webapi `
     --use-controllers `
