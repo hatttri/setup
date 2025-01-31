@@ -4,6 +4,8 @@
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-ceintl.vscode-language-pack-ja",
         "ms-python.black-formatter",
         "ms-python.python",
         "ms-toolsai.jupyter"
@@ -15,11 +17,9 @@
         "[python]": {
           "editor.defaultFormatter": "ms-python.black-formatter"
         },
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true
+        "editor.formatOnSave": true
       }
     }
   },
-  "postCreateCommand": "pip install -r requirements.txt"
+  "postCreateCommand": "bash -i .devcontainer/postCreate.sh"
 }
