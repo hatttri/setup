@@ -1,7 +1,6 @@
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id '7zip.7zip'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Brave.Brave'
 
-winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Cloudflare.Warp'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'DBBrowserForSQLite.DBBrowserForSQLite'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'DevToys-app.DevToys'
