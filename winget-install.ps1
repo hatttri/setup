@@ -1,4 +1,5 @@
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id '7zip.7zip'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Anysphere.Cursor' --custom '/MERGETASKS="addcontextmenufiles,addcontextmenufolders,!addtopath,!runcode"'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Brave.Brave'
 
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
@@ -23,7 +24,7 @@ winget install --accept-package-agreements --accept-source-agreements --exact --
 
 
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudio.2022.Community'
-winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudioCode' --custom '/MERGETASKS="addcontextmenufiles,addcontextmenufolders,!runcode"'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudioCode' --custom '/MERGETASKS="addcontextmenufiles,addcontextmenufolders,addtopath,!runcode"'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.WindowsTerminal'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Oracle.VirtualBox'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Postman.Postman'
