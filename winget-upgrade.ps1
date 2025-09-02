@@ -26,5 +26,6 @@ winget upgrade --accept-package-agreements --accept-source-agreements --exact --
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudio.2022.Community'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.VisualStudioCode' --custom '/MERGETASKS="addcontextmenufiles,addcontextmenufolders,addtopath,!runcode"'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.WindowsTerminal'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Mozilla.Firefox.ja'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Postman.Postman'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'WinMerge.WinMerge'
